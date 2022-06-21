@@ -1,0 +1,108 @@
+body {
+    background-color: black !important;
+}
+
+
+.gif-container {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gif {
+    margin: 5px;
+    padding: 0;
+}
+
+.input-feild {
+    width: 20%;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 2px;
+}
+
+.submitbtn {
+    height: 40px;
+    border-radius: 8px;
+    width: 3%;
+    margin: 2px;
+}
+
+.submitbtn:hover {
+    background-color: antiquewhite;
+    transition: 500ms linear;
+}
+
+.submitbtn:active {
+    background-color: blue;
+}
+
+.search-gif {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    display: flex;
+    justify-content: center;
+}
+
+.error-message {
+    text-align: center;
+    margin: 0;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loader {
+    width: 50px;
+    height: 50px;
+    border-color: 8px solid white;
+    border-top: 5px solid white;
+    border-radius: 50%;
+    animation: spinner 1s linear infinite;
+}
+
+.pagenumber {
+    list-style: none;
+    color: white;
+    margin: 1px;
+}
+
+.pages-container {
+    display: flex;
+    justify-content: center;
+}
+
+.pagebtn {
+    width: 2rem;
+    height: 2rem;
+    size: 10px;
+    font-size: 1rem;
+}
+
+.pagebtn:focus {
+    background-color: aqua;
+}
+
+.text {
+    color: white;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.searchtext {
+    display: flex;
+    justify-content: center;
+}
