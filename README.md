@@ -1,8 +1,10 @@
 # Getting Started with Create React App
 
-This project is based on ReactJS with custom CSS
-For form validation, formik and yup package has been used.
-For API calls, axios package has been used.
+This project is based on ReactJS with custom CSS \
+For form validation, formik and yup package has been used. \
+For API calls, axios package has been used. 
+
+and also you can check the live hostred website in https://searchgiphy1994.firebaseapp.com/
 
 
 
